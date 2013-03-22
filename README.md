@@ -1,0 +1,1 @@
+Bookmarklet for Digitalbutters mirror addon. This bookmarklet writes ?flush behind your url.
