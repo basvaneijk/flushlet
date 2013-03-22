@@ -1,0 +1,17 @@
+javascript:(
+
+function(){
+
+	var myUrl = window.location.href;
+
+	var hasVar = myUrl.indexOf("?");
+
+	if (hasVar !== -1) {
+		myUrl = myUrl+"&flush";
+	} else {
+		myUrl = myUrl+"?flush";
+	}
+
+	window.location=myUrl;
+
+})();
